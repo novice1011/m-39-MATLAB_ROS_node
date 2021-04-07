@@ -1,3 +1,7 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Move back and fort using stupid controller%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %% Clear 
 clc; clear all;
 
@@ -11,7 +15,7 @@ vel_msg = rosmessage(vel_pub); % pub message
 
 %% sub init
 pose_sub = rossubscriber('/odom');
-target_1 = [1 0];
+target_1 = [1 1];
 target_2 = [0 0];
 target=target_1;
 pos_case = 1;

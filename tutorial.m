@@ -63,8 +63,6 @@ function callback_func(~,callback_ret)
 
 %   Copyright 2014-2015 The MathWorks, Inc.
 
-% disp('A service client is calling');
-% disp(sum(callback_ret.ranges))
 disp(callback_ret)
 end
 
