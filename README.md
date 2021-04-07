@@ -106,7 +106,7 @@ This code will move the robot between 2 points. after reaching a point, the robo
 The point reference is `/odom` reading.  That means the origin is the starting point.  
 
 This is the flow chart of the code.  
-![](https://i.imgur.com/LkCZCBh.png =200x)  
+![](https://i.imgur.com/LkCZCBh.png)  
 This is the graph of the program.  
 ![](https://i.imgur.com/bEq28hs.png)  
 
